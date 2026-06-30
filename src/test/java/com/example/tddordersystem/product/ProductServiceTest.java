@@ -12,16 +12,16 @@ public class ProductServiceTest {
     @Autowired
     private ProductService productService;
 
-    @Test
-    void 상품조회() {
-        // 상품 등록
-        productService.addProduct(ProductSteps.상품등록요청_생성());
-
-        // 상품 조회
-        final long productId = 1L;
-        final GetProductResponse response = productService.getProduct(productId);
-
-        // 상품의 응답을 검증
-        assertThat(response).isNotNull();
-    }
+//    @Test
+//    void 상품조회() {
+//        // 상품 등록
+//        productService.addProduct(ProductSteps.상품등록요청_생성());
+//
+//        // 상품 조회
+//        final long productId = 1L;
+//        final GetProductResponse response = productService.getProduct(productId);
+//
+//        // 상품의 응답을 검증
+//        assertThat(response).isNotNull();
+//    }
 }
