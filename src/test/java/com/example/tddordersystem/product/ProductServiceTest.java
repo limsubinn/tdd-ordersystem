@@ -20,7 +20,7 @@ public class ProductServiceTest {
 
         // 상품 수정
         final long productId = 1L;
-        final UpdateProductRequest request = new UpdateProductRequest("상품 수정", 2000, DiscountPolicy.NONE);
+        final UpdateProductRequest request = ProductSteps.상품수정요청_생성();
         productService.updateProduct(productId, request);
 
         // 상품의 응답을 검증
