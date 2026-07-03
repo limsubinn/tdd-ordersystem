@@ -1,8 +1,9 @@
 package com.example.tddordersystem.order;
 
-import java.util.HashMap;
+import org.springframework.stereotype.Component;import java.util.HashMap;
 import java.util.Map;
 
+@Component
 class OrderRepository {
 
     private Map<Long, Order> persistence = new HashMap<>();
