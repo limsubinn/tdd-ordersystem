@@ -1,5 +1,5 @@
 package com.example.tddordersystem.product;
 
-enum DiscountPolicy {
+public enum DiscountPolicy {
     NONE
 }
