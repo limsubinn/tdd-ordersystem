@@ -3,7 +3,9 @@ package com.example.tddordersystem.payment;
 import com.example.tddordersystem.order.Order;
 import com.example.tddordersystem.product.DiscountPolicy;
 import com.example.tddordersystem.product.Product;
+import org.springframework.stereotype.Component;
 
+@Component
 class PaymentAdapter implements PaymentPort {
 
     private final PaymentGateway paymentGateway;
