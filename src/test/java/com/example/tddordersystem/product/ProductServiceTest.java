@@ -1,5 +1,8 @@
 package com.example.tddordersystem.product;
 
+import com.example.tddordersystem.product.application.service.GetProductResponse;
+import com.example.tddordersystem.product.application.service.ProductService;
+import com.example.tddordersystem.product.application.service.UpdateProductRequest;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

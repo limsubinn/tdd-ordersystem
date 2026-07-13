@@ -1,4 +1,4 @@
-package com.example.tddordersystem.payment;
+package com.example.tddordersystem.payment.adapter;
 
 interface PaymentGateway {
 

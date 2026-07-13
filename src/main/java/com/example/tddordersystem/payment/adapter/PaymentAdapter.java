@@ -1,11 +1,13 @@
-package com.example.tddordersystem.payment;
+package com.example.tddordersystem.payment.adapter;
 
-import com.example.tddordersystem.order.Order;
-import com.example.tddordersystem.order.OrderRepository;
+import com.example.tddordersystem.order.domain.Order;
+import com.example.tddordersystem.order.adapter.OrderRepository;
+import com.example.tddordersystem.payment.domain.Payment;
+import com.example.tddordersystem.payment.application.port.PaymentPort;
 import org.springframework.stereotype.Component;
 
 @Component
-class PaymentAdapter implements PaymentPort {
+public class PaymentAdapter implements PaymentPort {
 
     private final PaymentGateway paymentGateway;
     private final PaymentRepository paymentRepository;

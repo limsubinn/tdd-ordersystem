@@ -1,6 +1,6 @@
-package com.example.tddordersystem.order;
+package com.example.tddordersystem.order.domain;
 
-import com.example.tddordersystem.product.Product;
+import com.example.tddordersystem.product.domain.Product;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;

@@ -1,6 +1,6 @@
-package com.example.tddordersystem.payment;
+package com.example.tddordersystem.payment.domain;
 
-import com.example.tddordersystem.order.Order;
+import com.example.tddordersystem.order.domain.Order;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -11,7 +11,7 @@ import org.springframework.util.Assert;
 @Table(name = "payments")
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-class Payment {
+public class Payment {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

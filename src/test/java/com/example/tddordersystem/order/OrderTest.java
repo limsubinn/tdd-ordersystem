@@ -1,11 +1,11 @@
 package com.example.tddordersystem.order;
 
-import com.example.tddordersystem.product.DiscountPolicy;
-import com.example.tddordersystem.product.Product;
+import com.example.tddordersystem.order.domain.Order;
+import com.example.tddordersystem.product.domain.DiscountPolicy;
+import com.example.tddordersystem.product.domain.Product;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class OrderTest {
 

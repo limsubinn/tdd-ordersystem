@@ -1,9 +1,9 @@
-package com.example.tddordersystem.payment;
+package com.example.tddordersystem.payment.adapter;
 
 import org.springframework.stereotype.Component;
 
 @Component
-class ConsolePaymentGateway implements PaymentGateway {
+public class ConsolePaymentGateway implements PaymentGateway {
 
     @Override
     public void execute(int totalPrice, String cardNumber) {

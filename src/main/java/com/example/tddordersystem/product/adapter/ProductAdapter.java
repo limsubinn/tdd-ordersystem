@@ -1,9 +1,11 @@
-package com.example.tddordersystem.product;
+package com.example.tddordersystem.product.adapter;
 
+import com.example.tddordersystem.product.domain.Product;
+import com.example.tddordersystem.product.application.port.ProductPort;
 import org.springframework.stereotype.Component;
 
 @Component
-class ProductAdapter implements ProductPort {
+public class ProductAdapter implements ProductPort {
 
     private final ProductRepository productRepository;
 
